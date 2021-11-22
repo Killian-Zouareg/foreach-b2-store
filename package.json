@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "commit": "git cz",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -23,9 +25,7 @@
     "@commitlint/config-conventional": "^15.0.0",
     "commitizen": "^4.2.4",
     "husky": "^7.0.4",
-    "nodemon": "^2.0.15",
-    "commit": "git cz",
-    "prepare": "husky install"
+    "nodemon": "^2.0.15"
   },
   "husky": {
     "hooks": {
