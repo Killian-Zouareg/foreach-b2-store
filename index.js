@@ -1,11 +1,15 @@
-const lion = require('./animals/lion')
+const lion = require('./animals/lion');
 
-function wakeUpTheZoo () {
-    lion.roar()
+function wakeUpTheZoo() {
+  lion.roar();
 }
 
 function giveFood() {
-    lion.miam()
+  lion.miam();
 }
 
-wakeUpTheZoo()
+function closeTheZoo() {
+  lion.sleep();
+}
+
+wakeUpTheZoo();
