@@ -26,4 +26,4 @@ Merci à vous de faire connaitre le zoo en ramenant chacun un animal :
 
 Inspirez vous du lion déjà présent, il est pas trop mal intégré.
 
-Pour intégrer votre animal au zoo, Récupérer le zoo en local faite une branche feat/add<VotreAnimal> pousser votre code et faites une PR de votre branche sur main
+Pour intégrer votre animal au zoo, Récupérer le zoo en local faite une branche feat/add< VotreAnimal > pousser votre code et faites une PR de votre branche sur main
