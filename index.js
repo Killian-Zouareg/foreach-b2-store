@@ -12,7 +12,7 @@ const cheval = require('./animals/cheval');
 function wakeUpTheZoo() {
   lion.roar();
   tigre.roar();
-  mouton.roar();
+  mouton.bele();
   singe.roar();
   loup.howling();
   cat.meow();
