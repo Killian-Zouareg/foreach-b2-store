@@ -8,6 +8,7 @@ const crotal = require('./animals/crotal');
 const ours = require('./animals/ours');
 const ara = require('./animals/ara');
 const cheval = require('./animals/cheval');
+const panda = require('./animals/panda')
 
 function wakeUpTheZoo() {
   lion.roar();
