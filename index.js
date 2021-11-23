@@ -9,6 +9,7 @@ const ours = require('./animals/ours');
 const ara = require('./animals/ara');
 const cheval = require('./animals/cheval');
 const panda = require('./animals/panda')
+const cheval = require('./animals/cheval');
 
 function wakeUpTheZoo() {
   lion.roar();
@@ -20,9 +21,12 @@ function wakeUpTheZoo() {
   crotal.rattle();
   crotal.hissing();
   cheval.roar();
+<<<<<<< HEAD
   ours.roar();
   ara.roar();
   panda.roar();
+=======
+>>>>>>> 1108039 (feat: added crotale)
 }
 
 function giveFood() {
