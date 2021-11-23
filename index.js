@@ -22,6 +22,7 @@ function wakeUpTheZoo() {
   cheval.roar();
   ours.roar();
   ara.roar();
+  panda.roar();
 }
 
 function giveFood() {
@@ -35,6 +36,7 @@ function giveFood() {
   cheval.miam();
   ours.miam();
   ara.miam();
+  panda.miam();
 }
 
 function closeTheZoo() {
@@ -48,6 +50,7 @@ function closeTheZoo() {
   cheval.sleep();
   ours.sleep();
   ara.sleep();
+  panda.sleep();
 }
 
 wakeUpTheZoo();
