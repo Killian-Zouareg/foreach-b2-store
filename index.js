@@ -3,6 +3,7 @@ const tigre = require('./animals/tigre');
 const loup = require('./animals/loup');
 const mouton = require('./animals/mouton');
 const singe = require('./animals/singe');
+const ours = require('./animals/ours');
 const ara = require('./animals/ara');
 
 function wakeUpTheZoo() {
@@ -11,7 +12,9 @@ function wakeUpTheZoo() {
   mouton.roar();
   singe.roar();
   loup.howling();
+  ours.roar();
   ara.roar();
+
 }
 
 function giveFood() {
@@ -20,6 +23,7 @@ function giveFood() {
   mouton.miam();
   singe.eat();
   loup.miam();
+  ours.miam();
   ara.miam();
 }
 
@@ -29,6 +33,7 @@ function closeTheZoo() {
   mouton.sleep();
   singe.sleep();
   loup.sleep();
+  ours.sleep();
   ara.sleep();
 }
 
