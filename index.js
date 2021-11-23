@@ -15,6 +15,7 @@ function wakeUpTheZoo() {
   lion.roar();
   tigre.roar();
   mouton.bele();
+  mouton.roar();
   singe.roar();
   loup.howling();
   cat.meow();
