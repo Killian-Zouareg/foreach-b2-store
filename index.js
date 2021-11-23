@@ -8,6 +8,7 @@ const crotal = require('./animals/crotal');
 const ours = require('./animals/ours');
 const ara = require('./animals/ara');
 const cheval = require('./animals/cheval');
+const panda = require('./animals/panda')
 
 function wakeUpTheZoo() {
   lion.roar();
@@ -21,6 +22,7 @@ function wakeUpTheZoo() {
   cheval.roar();
   ours.roar();
   ara.roar();
+  panda.roar();
 }
 
 function giveFood() {
@@ -34,6 +36,7 @@ function giveFood() {
   cheval.miam();
   ours.miam();
   ara.miam();
+  panda.miam();
 }
 
 function closeTheZoo() {
@@ -47,6 +50,7 @@ function closeTheZoo() {
   cheval.sleep();
   ours.sleep();
   ara.sleep();
+  panda.sleep();
 }
 
 wakeUpTheZoo();
