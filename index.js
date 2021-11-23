@@ -9,7 +9,6 @@ function wakeUpTheZoo() {
   mouton.roar();
   singe.roar();
   loup.howling();
-  lion.roar();
   cat.meow();
 }
 
