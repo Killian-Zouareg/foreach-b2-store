@@ -1,17 +1,17 @@
 var sleep = function () {
-    console.log('zzzzZZZZ');
+    return 'zzzzZZZZ';
 };
 
 var eat = function () {
-    console.log('miam');
+    return 'miam';
 };
 
 var rattle = function () {
-    console.log('ratttttle');
+    return 'ratttttle';
 };
 
 var hissing = function () {
-    console.log('Hisssssssssss');
+    return 'Hisssssssssss';
 };
 
 module.exports = {eat, sleep, rattle, hissing};

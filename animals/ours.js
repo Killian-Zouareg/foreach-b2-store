@@ -1,13 +1,13 @@
 var sleep = function () {
-    console.log('zZzZzZzZ');
+    return 'zZzZzZzZ';
   };
   
   var eat = function () {
-    console.log('miam');
+    return 'miam';
   };
   
   var roar = function () {
-    console.log('GRRRRRRRRRRRRR');
+    return 'GRRRRRRRRRRRRR';
   };
   
   module.exports = { eat, sleep, roar };
