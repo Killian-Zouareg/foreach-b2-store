@@ -2,12 +2,15 @@ const lion = require('./animals/lion');
 const loup = require('./animals/loup');
 const mouton = require('./animals/mouton');
 const singe = require('./animals/singe');
+const cat = require('./animals/cat')
 
 function wakeUpTheZoo() {
   lion.roar();
   mouton.roar();
   singe.roar();
   loup.howling();
+  lion.roar();
+  cat.meow();
 }
 
 function giveFood() {
@@ -15,6 +18,7 @@ function giveFood() {
   mouton.miam();
   singe.eat();
   loup.miam();
+  cat.eat();
 }
 
 function closeTheZoo() {
@@ -22,6 +26,7 @@ function closeTheZoo() {
   mouton.sleep();
   singe.sleep();
   loup.sleep();
+  cat.sleep();
 }
 
 
