@@ -6,9 +6,9 @@ var sleep = function () {
     console.log('miam');
   };
   
-  var roar = function () {
+  var bele = function () {
     console.log('BRRRRRrrrrrr');
   };
   
-  module.exports = { eat, sleep, roar };
+  module.exports = { eat, sleep, bele };
   

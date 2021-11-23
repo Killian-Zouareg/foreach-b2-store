@@ -13,7 +13,7 @@ const panda = require('./animals/panda')
 function wakeUpTheZoo() {
   lion.roar();
   tigre.roar();
-  mouton.roar();
+  mouton.bele();
   singe.roar();
   loup.howling();
   cat.meow();
