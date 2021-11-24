@@ -1,4 +1,7 @@
 const express = require('express');
+const morgan = require('morgan')
+const path = require('path')
+const rfs = require('rotating-file-stream') // version 2.x
 const app = express();
 const port = 3000;
 const lion = require('./animals/lion');
@@ -12,6 +15,16 @@ const ours = require('./animals/ours');
 const ara = require('./animals/ara');
 const cheval = require('./animals/cheval');
 const panda = require('./animals/panda');
+
+
+// create a rotating write stream
+var accessLogStream = rfs.createStream('access.log', {
+  interval: '1d', // rotate daily
+  path: path.join(__dirname, 'log')
+})
+
+// setup the logger
+app.use(morgan('combined', { stream: accessLogStream }))
 
 function wakeUpTheZoo() {
   var awake = lion.roar();
@@ -79,7 +92,5 @@ app.get('/', (req, res) => {
   });
 
   app.listen(port, () => {
-    console.log("Cool que vous puissiez voir ce log")
-    process.exit(1)
-    console.log(`Example app listening at http://localhost:${port}`)
+    console.log(`Le zoo est en ecoute sur http://localhost:${port}`)
   })
