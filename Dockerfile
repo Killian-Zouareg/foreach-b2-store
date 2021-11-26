@@ -2,10 +2,12 @@ FROM node:16.13.0-alpine
 
 WORKDIR /usr/src/app
 
-ADD . .
+ADD package.json .
 
 RUN yarn install
 
+ADD . .
+
 EXPOSE 3000
 
-CMD yarn start
+CMD yarn dev
